@@ -9,3 +9,16 @@ def simple_interest(p,t,r):
     return si
 
 simple_interest(4.6,10,10)
+
+#way 2
+print("Enter three numbers")
+p = float(input())
+t = float(input())
+r = float(input())
+
+print("the principal is",p)
+print("the time period is",t)
+print(("the rate of interest is",r)
+
+si = (p*t*r)/100
+print("the simple interest is",si)
